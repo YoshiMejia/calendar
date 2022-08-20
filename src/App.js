@@ -1,10 +1,11 @@
 import './App.css';
+import Month from './components/Month';
+import MonthView from './containers/MonthView';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <MonthView/>
     </div>
   );
 }
