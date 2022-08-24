@@ -1,6 +1,27 @@
+/* Reset styles */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(183, 183, 164);
+}
+
+body {
+  width: 1000px;
+}
+
+/* Banner */
+.banner{
+  display: inline-block;
+  width: 900px;
+  margin: 15px 20px;
+}
+
+.title {
+  float: left;
+}
+
+.year {
+  float: right;
 }
