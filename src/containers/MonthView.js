@@ -1,9 +1,11 @@
 import React from "react";
 import Month from "../components/Month";
+import Banner from "../components/Banner";
 
 const MonthView = () => {
     return(
         <div className="monthview">
+        <Banner />
         <Month/>
             <h2>Sunday</h2>
             <h2>Monday</h2>
