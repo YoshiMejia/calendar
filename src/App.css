@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Quicksand', sans-serif;
-  background-color: rgb(183, 183, 164);
+  background-color: rgb(244, 244, 213);
 }
 
 body {
@@ -16,6 +16,7 @@ body {
   display: inline-block;
   width: 900px;
   margin: 15px 20px;
+  color: rgb(156, 156, 128);
 }
 
 .title {
@@ -24,4 +25,14 @@ body {
 
 .year {
   float: right;
+}
+
+/* Month */
+
+.month {
+  display: flex;
+  align-items: baseline;
+  gap: 100px;
+  padding-left: 250px;
+  border-bottom: 1px solid black;
 }
