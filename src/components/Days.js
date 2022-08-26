@@ -4,6 +4,9 @@ const Days = () => {
 
     return (
         <div className="days">
+            <p className="prev-month">28</p>
+            <p className="prev-month">29</p>
+            <p className="prev-month">30</p>
             <p className="prev-month">31</p>
             <p className="current-month">1</p>
             <p className="current-month">2</p>
