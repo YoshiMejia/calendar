@@ -38,11 +38,7 @@ const Days = () => {
             <p className="current-month">28</p>
             <p className="current-month">29</p>
             <p className="current-month">30</p>
-            <p className="current-month">31</p>
-            <p className="next-month">1</p>
-            <p className="next-month">2</p>
-            <p className="next-month">3</p>
-           
+            <p className="current-month">31</p>           
         </div>
     )
 }
