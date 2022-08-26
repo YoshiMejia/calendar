@@ -7,7 +7,7 @@
   background-color: rgb(244, 244, 213);
 }
 
-body {
+.monthView {
   width: 1000px;
 }
 
@@ -36,6 +36,7 @@ body {
   padding-left: 270px;
   margin-left: 90px;
   border-bottom: 1px solid black;
+  width: 850px;
 }
 
 /* Weekdays */
