@@ -7,8 +7,12 @@
   background-color: rgb(244, 244, 213);
 }
 
-.monthView {
-  width: 1000px;
+.App {
+  display: flex;
+}
+
+.monthview {
+  width: 840px;
 }
 
 /* Banner */
@@ -43,7 +47,7 @@
 .days{
   margin: 20px 30px;
   display: grid;
-  grid-template-columns: 125px 125px 125px 160px 125px 125px 125px;
+  grid-template-columns: 90px 90px 90px 130px 90px 90px 90px;
   grid-template-rows: auto; 
   column-gap: 20px;
   row-gap: 20px;
