@@ -80,10 +80,11 @@
 /* Events */
 .event-cont {
   margin: 0 30px;
-  width: 400px;
+  width: 300px;
   height: 478px;
-  background-image: url('./media/mountain.jpg');
-  background-size: contain;
+  background-size: cover;
+  position: relative;
+  background-image:linear-gradient(to bottom, rgba(209, 226, 188, 0.9) 0%,rgba(160, 236, 247, 0.5)), url('./media/mountain.jpg');
 }
 
 .clr-bck {
