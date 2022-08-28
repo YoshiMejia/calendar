@@ -9,7 +9,7 @@ const MonthView = () => {
         <div className="monthview">
             <Banner />
             <Month/>
-                <div className="weekdays">
+                <div className="weekdays grid">
                     <h2>Sunday</h2>
                     <h2>Monday</h2>
                     <h2>Tuesday</h2>

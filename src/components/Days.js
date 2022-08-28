@@ -13,7 +13,7 @@ function Days() {
     })
 
     return (
-        <div className="days">
+        <div className="days grid">
             <p className="prev-month">28</p>
             <p className="prev-month">29</p>
             <p className="prev-month">30</p>
