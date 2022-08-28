@@ -3,12 +3,13 @@ import React from "react";
 const Events = () => {
     return (
         <div className="event-cont">
-            <div className="signin">
-                <a href="#blank" className="signin-btn" onClick={e => {e.preventDefault()}}>Sign-In</a>
+            <div className="signin clr-bck">
+                <a href="#blank" className="signin-btn clr-bck" onClick={e => {e.preventDefault()}}>Sign-In</a>
             </div>
 
-            <div className="addevent">
-                <a href="#blank" className="addevent-btn" onClick={e => {e.preventDefault()}}>Add An Event</a>
+            <div className="addevent clr-bck">
+                <a href="#blank" className="addevent-btn clr-bck" onClick={e => {e.preventDefault()}}>Add An Event</a>
+                <p className="plus">+</p>
             </div>
         </div>
     )
