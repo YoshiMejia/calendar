@@ -1,6 +1,16 @@
-import React from "react";
+import React, {useEffect} from "react";
 
-const Days = () => {
+function Days() {
+    useEffect(() => {
+        const today = new Date()
+        let dd = String(today.getDate()).padStart(2, '0');
+        const days = document.querySelectorAll('.days p')
+        days.forEach(day => {
+            if(day.textContent === dd){
+                day.classList.add('test')
+            }
+    })
+    })
 
     return (
         <div className="days">
