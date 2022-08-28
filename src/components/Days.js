@@ -7,7 +7,7 @@ function Days() {
         const days = document.querySelectorAll('.days p')
         days.forEach(day => {
             if(day.textContent === dd){
-                day.classList.add('test')
+                day.classList.add('today')
             }
     })
     })
