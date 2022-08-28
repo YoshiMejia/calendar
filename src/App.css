@@ -76,3 +76,21 @@
 .right {
   float: right;
 }
+
+/* Events */
+.event-cont {
+  margin: 0 30px;
+  width: 400px;
+  height: 478px;
+  background-image: url('./media/mountain.jpg');
+  background-size: contain;
+}
+
+.clr-bck {
+  background-color: transparent;
+}
+
+.plus {
+  border-radius: 25%;
+  width: fit-content;
+}
