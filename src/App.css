@@ -46,22 +46,21 @@
 
 /* Weekdays */
 .weekdays {
+  text-align: center;
+}
+
+.grid{
   display: grid;
   grid-template-columns: 90px 90px 90px 130px 90px 90px 90px;
   grid-template-rows: auto; 
   column-gap: 20px;
   row-gap: 20px;
-  text-align: center;
+  justify-content: space-evenly;
 }
 
 .days{
   margin: 20px 30px;
-  height: 500px;
-  display: grid;
-  grid-template-columns: 90px 90px 90px 130px 90px 90px 90px;
-  grid-template-rows: auto; 
-  column-gap: 20px;
-  row-gap: 20px;
+  height: 400px;
   text-align: center;
   z-index: 2;
   color: #839395;
