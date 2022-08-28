@@ -9,7 +9,7 @@ const Events = () => {
 
             <div className="addevent clr-bck">
                 <a href="#blank" className="addevent-btn clr-bck" onClick={e => {e.preventDefault()}}>Add An Event</a>
-                <p className="plus">+</p>
+                <p className="plus clr-bck">+</p>
             </div>
         </div>
     )
