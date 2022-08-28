@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Montserrat';
   background-color: rgb(244, 244, 213);
 }
 
@@ -20,7 +20,7 @@
   display: inline-block;
   width: 800px;
   margin: 15px 40px;
-  color: rgb(156, 156, 128);
+  color: #7cc0c9;
 }
 
 .title {
@@ -41,11 +41,22 @@
   margin-left: 30px;
   border-bottom: 1px solid black;
   width: 850px;
+  color: #7cc0c9;
 }
 
 /* Weekdays */
+.weekdays {
+  display: grid;
+  grid-template-columns: 90px 90px 90px 130px 90px 90px 90px;
+  grid-template-rows: auto; 
+  column-gap: 20px;
+  row-gap: 20px;
+  text-align: center;
+}
+
 .days{
   margin: 20px 30px;
+  height: 500px;
   display: grid;
   grid-template-columns: 90px 90px 90px 130px 90px 90px 90px;
   grid-template-rows: auto; 
@@ -53,6 +64,7 @@
   row-gap: 20px;
   text-align: center;
   z-index: 2;
+  color: #839395;
 }
 
 .today{
