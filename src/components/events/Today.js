@@ -32,7 +32,7 @@ const Today = () => {
       }
 
     return(
-        <div className="today">
+        <div className="today clr-bck">
             {day}
         </div>
     )
