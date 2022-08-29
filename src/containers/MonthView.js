@@ -1,8 +1,8 @@
 import React from "react";
-import Month from "../components/Month";
-import Banner from "../components/Banner";
-import Days from "../components/Days";
-import Arrows from "../components/Arrows";
+import Month from "../components/calendar/Month";
+import Banner from "../components/calendar/Banner";
+import Days from "../components/calendar/Days";
+import Arrows from "../components/calendar/Arrows";
 
 const MonthView = () => {
     return(
