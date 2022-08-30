@@ -4,6 +4,7 @@ const Today = () => {
 
     const d = new Date();
     let day = d.getDay();
+    let dd = String(d.getDate()).padStart(2, '0');
     let month = d.getMonth()
 
     switch (day) {
@@ -81,6 +82,9 @@ const Today = () => {
         </div>
         <div className="ev-month clr-bck">
             {month.toUpperCase()}
+        </div>
+        <div className="ev-date clr-bck">
+            { dd}
         </div>
         </>
 
