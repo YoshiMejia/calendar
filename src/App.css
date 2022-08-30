@@ -136,3 +136,10 @@
   left:  50px;
   font-size: xx-large;
 }
+
+.ev-date {
+  position: absolute;
+  font-size: xx-large;
+  top: 100px;
+  left: 200px;
+}
