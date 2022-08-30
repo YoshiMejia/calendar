@@ -4,6 +4,7 @@ const Today = () => {
 
     const d = new Date();
     let day = d.getDay();
+    let month = d.getMonth()
 
     switch (day) {
         case 0:
@@ -31,10 +32,58 @@ const Today = () => {
         day = "Doomsday";
       }
 
+      switch (month) {
+        case 0:
+          month = "January";
+          break;
+        case 1:
+          month = "February";
+          break;
+        case 2:
+           month = "March";
+          break;
+        case 3:
+          month = "April";
+          break;
+        case 4:
+          month = "May";
+          break;
+        case 5:
+          month = "June";
+          break;
+        case 6:
+          month = "July";
+          break;
+        case 7:
+          month = "August";
+          break;
+        case 8:
+          month = "September";
+          break;
+        case 9:
+          month = "October";
+          break;
+        case 10:
+          month = "November";
+          break;
+        case 11:
+          month = "December";
+          break;
+        default:
+        month = "Doomsday";
+      }
+
     return(
-        <div className="today clr-bck">
+        <>
+
+        <div className="ev-today clr-bck">
             {day}
         </div>
+        <div className="ev-month clr-bck">
+            {month.toUpperCase()}
+        </div>
+        </>
+
     )
 }
 
