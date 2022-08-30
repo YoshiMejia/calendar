@@ -132,4 +132,7 @@
 
 .ev-month {
   position: absolute;
+  top: 100px;
+  left:  50px;
+  font-size: xx-large;
 }
