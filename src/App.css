@@ -124,8 +124,12 @@
   width: fit-content;
 }
 
-.today {
+.ev-today {
   position: absolute;
   top: 60px;
   left: 50px;
+}
+
+.ev-month {
+  position: absolute;
 }
