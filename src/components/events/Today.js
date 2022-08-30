@@ -86,6 +86,13 @@ const Today = () => {
         <div className="ev-date clr-bck">
             {dateNum}
         </div>
+
+        <div className="ev-appt-date clr-bck">
+          <p className="clr-bck">3</p>
+          <p className="clr-bck">14</p>
+          <p className="clr-bck">26</p>
+        </div>
+        
         </>
 
     )
