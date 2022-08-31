@@ -157,3 +157,13 @@
   margin: 25px 5px;
   font-weight: 600;
 }
+
+.ev-appts {
+  font-size: xx-large;
+}
+
+.ev-appt-1 {
+  position: absolute;
+  top: 245px;
+  left: 100px;
+}
