@@ -94,7 +94,7 @@ const Today = () => {
         </div>
         
         <div className="ev-appts clr-bck">
-          <p className="clr-bck ev-appt-1">Dermatologist Appointment</p>
+          <p className="clr-bck ev-appt-1">Dermatologist</p>
           <p className="clr-bck ev-appt-2">Networking Meetup</p>
           <p className="clr-bck ev-appt-3">Vacation</p>
         </div>
