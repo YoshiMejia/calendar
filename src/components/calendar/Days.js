@@ -3,13 +3,13 @@ import React, {useEffect} from "react";
 function Days() {
     useEffect(() => {
         const today = new Date()
-        let dd = String(today.getDate()).padStart(2, '0');
+        let dd = String(today.getDate())
         const days = document.querySelectorAll('.days p')
         days.forEach(day => {
             if(day.textContent === dd){
                 day.classList.add('today')
             }
-    })
+        })
     })
 
     return (
