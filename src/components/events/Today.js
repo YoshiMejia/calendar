@@ -4,7 +4,7 @@ const Today = () => {
 
     const d = new Date();
     let day = d.getDay();
-    let dateNum = String(d.getDate()).padStart(2, '0');
+    let dateNum = String(d.getDate());
     let month = d.getMonth()
 
     switch (day) {
