@@ -10,13 +10,13 @@ const MonthView = () => {
             <Banner />
             <Month/>
                 <div className="weekdays grid">
-                    <h2>Sunday</h2>
-                    <h2>Monday</h2>
-                    <h2>Tuesday</h2>
-                    <h2>Wednesday</h2>
-                    <h2>Thursday</h2>
-                    <h2>Friday</h2>
-                    <h2>Saturday</h2>
+                    <h2>Sun</h2>
+                    <h2>Mon</h2>
+                    <h2>Tue</h2>
+                    <h2>Wed</h2>
+                    <h2>Thu</h2>
+                    <h2>Fri</h2>
+                    <h2>Sat</h2>
                 </div>
             <Arrows />
             <Days />
