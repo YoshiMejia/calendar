@@ -93,7 +93,11 @@ const Today = () => {
           <p className="clr-bck">26</p>
         </div>
         
-        <div className="ev-appts clr-bck">
+        <div className="grey-block">
+          
+        </div>
+        
+        <div className="ev-appts">
           <p className="clr-bck ev-appt-1">Dermatologist</p>
           <p className="clr-bck ev-appt-2">Networking Meetup</p>
           <p className="clr-bck ev-appt-3">Vacation</p>
