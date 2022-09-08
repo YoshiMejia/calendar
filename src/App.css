@@ -140,11 +140,13 @@
   top: 100px;
   left:  50px;
   font-size: x-large;
+  font-weight: 600;
 }
 
 .ev-date {
   position: absolute;
   font-size: x-large;
+  font-weight: 600;
   top: 100px;
   left: 215px;
 }
