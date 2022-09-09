@@ -8,12 +8,12 @@ const Arrows = () => {
         <div className="arrows">
             {/* <img src={left} alt="left arrow" className="left arrow"></img>
             <img src={right} alt="right arrow" className="right arrow"></img> */}
-            <p className="left arrow">
+            <a href="#blank" className="left arrow">
                 &lt;
-            </p>
-            <p className="right arrow">
+            </a>
+            <a href="#blank" className="right arrow">
                 &gt;
-            </p>
+            </a>
         </div>
     )
 }
