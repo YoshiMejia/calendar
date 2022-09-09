@@ -14,6 +14,8 @@
 
 .monthview {
   width: 1040px;
+  position: relative;
+  left: 40px;
 }
 
 /* Banner */
@@ -85,7 +87,7 @@
 
 /* Arrows */
 .arrows {
-  width: 870px;
+  width: 1000px;
   top: 350px;
   z-index: 1;
   position: fixed;
@@ -95,6 +97,11 @@
   height: 50px;
   width: 50px;
   z-index: 1;
+  font-weight: 900;
+  color: #7cc0c9;
+  font-size: 65px;
+  display: inline-flex;
+  background-color: transparent;
 }
 
 .right {
