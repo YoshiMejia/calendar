@@ -2,7 +2,7 @@ import React from "react";
 import Month from "../components/calendar/Month";
 import Banner from "../components/calendar/Banner";
 import Days from "../components/calendar/Days";
-import Arrows from "../components/calendar/Arrows";
+// import Arrows from "../components/calendar/Arrows";
 
 const MonthView = () => {
     return(
@@ -18,7 +18,7 @@ const MonthView = () => {
                     <h2>Fri</h2>
                     <h2>Sat</h2>
                 </div>
-            <Arrows />
+            {/* <Arrows /> */}
             <Days />
         </div>
     )
