@@ -139,8 +139,13 @@
 }
 
 .plus {
-  border-radius: 25%;
-  width: fit-content;
+  background-color: white;
+  user-select: text;
+  font-size: 40px;
+  padding: 10px;
+  color: #26B9CC;
+  border-radius: 50%;
+  line-height: 30px;
 }
 
 .ev-today {
