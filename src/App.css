@@ -133,9 +133,15 @@
 
 .addevent {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 10px;
+  right: 15px;
   display: inline-flex;
+}
+
+.addevent-btn {
+  font-size: 20px;
+  line-height: 50px;
+  padding-right: 10px;
 }
 
 .plus {
