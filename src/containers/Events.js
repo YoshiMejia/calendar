@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Today from "../components/events/Today";
+import EventModal from "../components/events/EventModal";
 
 class Events extends Component {
     constructor() {
@@ -32,6 +33,7 @@ class Events extends Component {
                     <a href="#blank" className="addevent-btn clr-bck" onClick={this.showModal}>Add An Event</a>
                     <a href="#blank" className="plus clr-bck" onClick={this.showModal}>+</a>
                 </div>
+                <EventModal show={this.state.show} handleClose={this.hideModal}/>
             </div>
         )
     }
